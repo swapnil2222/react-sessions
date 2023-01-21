@@ -1,0 +1,20 @@
+- Is JSX mandatory for React?
+  JSX is just a syntax for React.createElement(component, props, ...children).
+  So anything you can do with JSX can be done using a plain JS. So any JSX you write will be converted into React.createElement using babel compiler.
+
+- IS ES6 mandatory for React?
+  Its not a mandatory to use ES6 classes or its other features such as arrow functions etc,If you dont want to use ES6, 
+  you can use module called create-react-class and create a component.
+
+- Functional components VS Class components?
+
+Functional components                                                                     Class components
+- Functional components are nothing but the simple JS functions.                    - Class components are made of classess containing multiple functions  and functionality 
+                                                                                      to the application.
+- Functional components takes props as input and returns the JSX element            - Class component extends React.component and creats a render function which will return a React element.
+  as an output. 
+- They are also known as stateless component as they simply take data and           - They are known as State component as they implement logic and state of the component.
+  and display it in some form, they are mainly responsible for rendering a UI.
+ - React lifecycle methods cannot be used in Functional components                  - React lifecycle methods can be used inside class component.
+ - Hooks can be used in Functional component.                                       - Need to use different syntax to use the features such as hooks.
+  

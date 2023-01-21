@@ -1,0 +1,40 @@
+1. What is microservice:
+ - It is an architechural style that structures an application as a collection of services that are:
+   Loosly coupled.
+   Independently deployable.
+   Highly maintainable and testable.
+   Organized around business capabilities.
+
+ - Microservice architecture helps devloper to do the rapid developement and deployment.
+ - It provides a freedom to try the new techstack as compared to monolithic where switching to a new tech stach can be difficult.
+ - Scalaing the individual services are easy.
+ - The application instance will build fast and development in IDE is also pretty fast because of the smaller size of services.
+- 
+
+2. What is monolithic architecture:
+- In monolithic, application is tightly coupled including the diffrence services.
+- Front-end, backend, database can be seen to be at one place.
+- Small change in one component will result in whole application deployment.
+- If there is a memory leak in one component, it can impact the whole application all other services.
+- New devloper will take time to understand the existing architecture and can find difficult to make changes.
+- Over the time, developement will be slow down due to increasing code base and complexity.
+
+3. Why do we need a useEffect hook:
+- useEffect is provided by a react and can be used to fetch the data from the API, updating the dom, setting timer etc, after the component is mounted.
+- It takes 2 params, first is the callback function and 2nd one is the deps array.
+
+4. Optional chaining: 
+- Optional chaining operation access the objects property or calls a function, if accesed object is undefined, it will return undefined insetad of throwing an error.
+e.g let a={val: {b: 'test'}}
+        a.val?.c => return undefined (instead of an error)
+
+5. What is Shimmer UI?
+ - Shimmer UI is a version of UI that doesnt contain actual content. instead it mimics the page layout by showing the elements in a shape similar to 
+  actual content as it is loading or becoming available.
+ - It improves the percive performance and adds good UX.
+ - It is actually a wireframe for the page with the placeholder boxes for the text and images.
+
+6. WHAT IS CORS:
+- It is a HTTP header based mechanism that allows server to indicate any origin other than its own from which a browser should permit loading resources.
+- It allows a web page to interact with non-origin domains.
+- 

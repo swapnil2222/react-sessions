@@ -1,0 +1,60 @@
+.logo {
+    width: 100px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+.nav-items {
+    display: flex;
+    gap: 1rem;
+}
+.restaurant-list {
+    flex-wrap: wrap;
+}
+.restaurant-card {
+    width: 200px;
+    border: 1px solid black;
+    margin: 1rem;
+}
+.restaurant-image {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.restaurant-info {
+    width: 100%;
+    padding: 0.5rem;
+}
+.sub-info {
+    display: flex;
+    gap: 0.5rem;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    background-color: #48c479;
+    height: 100%;
+    color: #fff;
+}
+.costForTwoString {
+    text-transform: uppercase;
+    font-size: medium;
+}
+.flex {
+    display: flex;
+}
+.shimmer-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card {
+    width: 200px;
+    height: 320px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin: 1rem;
+}

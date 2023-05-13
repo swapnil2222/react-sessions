@@ -36,5 +36,5 @@ e.g let a={val: {b: 'test'}}
 
 6. WHAT IS CORS:
 - It is a HTTP header based mechanism that allows server to indicate any origin other than its own from which a browser should permit loading resources.
-- It allows a web page to interact with non-origin domains.
+- It allows a web page to interact with the non-origin domains.
 - 

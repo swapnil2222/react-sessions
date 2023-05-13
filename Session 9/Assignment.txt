@@ -1,0 +1,4 @@
+1. When and Why to use lazy?
+- lazy loading will reduces the inital load time.
+- lazy loading the webpage reduces the bundle size allowing the quicker page load time.
+
